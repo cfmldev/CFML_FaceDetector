@@ -1,0 +1,2 @@
+<cfset faceDetector = createObject("component", "FaceDetector")>
+<cfset faceDetector.detectFace("C:\\depot\\cf_main\\cfusion\\wwwroot\\Apps\\FaceDetector\\lenna.png", "C:\\depot\\cf_main\\cfusion\\wwwroot\\Apps\\FaceDetector\\output.png")>
